@@ -1,0 +1,73 @@
+/*
+Theme Name: Cub Hub
+Theme URI: http://cubhub.com
+Description: cubhub based on isotope
+Author: Bracketmedia 
+Author URI: http://Bracketmedia.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: isotope
+Text Domain: cubhub
+*/
+
+
+@import 'sources/styles/node_modules/nib'
+
+/* Isotope css3 support */
+@import 'sources/styles/deps/isotope.styl'
+
+@import 'sources/styles/deps/clean.styl'
+
+/* commons */
+@import 'sources/styles/commons/colors.styl'
+@import 'sources/styles/commons/fonts.styl'
+@import 'sources/styles/commons/base.styl'
+@import 'sources/styles/commons/buttons.styl'
+@import 'sources/styles/commons/functions.styl'
+
+/* Component */
+/*@import 'sources/javascript/main/build/build.styl'
+
+/* areas */
+@import 'sources/styles/areas/layout.styl'
+@import 'sources/styles/areas/header.styl'
+@import 'sources/styles/areas/filters.styl'
+@import 'sources/styles/areas/sidebar.styl'
+@import 'sources/styles/areas/primary.styl'
+@import 'sources/styles/areas/footer.styl'
+
+/* sections */
+@import 'sources/styles/sections/home.styl'
+@import 'sources/styles/sections/item.styl'
+@import 'sources/styles/sections/resources.styl'
+@import 'sources/styles/sections/page.styl'
+
+/* Responsive Mobile */
+@import 'sources/styles/responsive/ipad.styl'
+@import 'sources/styles/responsive/minitablet.styl'
+@import 'sources/styles/responsive/smartph.styl'
+
+
+div#wrap
+  height: 100%
+  position: relative
+div#main.loading
+  min-height: 200px
+  background: url(images/bg-white.jpg) repeat-y right
+  &:after
+    content: ''
+    background: url('images/ajax-loader.gif') no-repeat center center
+    width:55px
+    height:55px
+    margin: 60px auto 0
+    display: block
+body
+  background: url('images/bg-top.jpg') no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  filter:unquote('progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-top.jpg", sizingMethod="scale")')
+  -ms-filter: unquote('progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/bg-top.jpg", sizingMethod="scale"')
+

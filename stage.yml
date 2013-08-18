@@ -1,0 +1,12 @@
+'settings':
+  ignore_if_same_revision: true
+'/xifox':
+  skip: false
+  scheme: ftp
+  user: xifox@ftp.xifox.net
+  password: '6M71N93N' #leave colons "'"
+  host: ftp.xifox.net
+  port: 21
+  path: /xifox
+  passive: true
+  local_path: website/

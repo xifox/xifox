@@ -1,4 +1,6 @@
 theme
+deploy.yml
+tools/
 website/index.html
 website/css/main.css
 website/js/main.js
@@ -20,6 +22,4 @@ sitemap.xml
 *.log
 wp-content/cache/
 wp-content/backups/
-*.yml
-tools/*
 

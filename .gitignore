@@ -20,5 +20,6 @@ sitemap.xml
 *.log
 wp-content/cache/
 wp-content/backups/
-deploy.yml
-stage.yml
+*.yml
+tools/*
+
